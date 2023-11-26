@@ -1,0 +1,283 @@
+.principal {
+  padding-top: 89px;
+
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 179px;
+}
+
+.head-division {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.img-division {
+  width: 56px;
+  height: 56px;
+  background-color: #f5f3da;
+  border-radius: 100%;
+  padding: 10px;
+}
+
+.title-division {
+  color: #000;
+  font-family: Poppins;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 170%;
+}
+
+.text-division {
+  width: 437px;
+  height: 71px;
+  color: #777;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 189.5%;
+}
+
+.head-img {
+  width: 608px;
+  height: 391px;
+}
+.info {
+  padding-top: 77px;
+  padding-bottom: 105px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 105px;
+}
+.info-social {
+  padding-right: 100px;
+  border-right: 2px solid #c2c2c2;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.social-text {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 189.5%;
+}
+
+.social-medias {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 11px;
+}
+
+.img-medias {
+  padding: 10px;
+  width: 13px;
+  height: 13px;
+  border-radius: 38%;
+  background-color: #fff;
+  filter: drop-shadow(0px 4px 14px rgba(0, 0, 0, 0.15));
+}
+
+.img-medias:hover {
+  background-color: #d2d2d2;
+}
+
+.info-tel {
+  border-right: 2px solid #c2c2c2;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.img-tel {
+  width: 30px;
+  height: 30px;
+}
+
+.tel-text {
+  color: #333;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.info-tel {
+  display: flex;
+  flex-direction: row;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  padding-right: 55px;
+}
+
+.info-map {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+
+.map-img {
+  width: 29px;
+  height: 29px;
+}
+
+.map-text {
+  width: 325px;
+  height: 66px;
+  color: #333;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.form-ctn {
+  padding-top: 54px;
+  background: #e8f4fa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 110px;
+}
+
+.form-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-title {
+  color: #000;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 189.5%;
+}
+
+.form-text {
+  color: #777;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 189.5%;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+
+.full-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 27px;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-email {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-message {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+label {
+  color: #4f4f4f;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 175.4%;
+  letter-spacing: -0.3px;
+}
+
+input[type="text"] {
+  padding-left: 12px;
+  width: 322px;
+  height: 45px;
+  border: none;
+  outline: none;
+  border-radius: 9px;
+  background: #fff;
+}
+
+.input-email {
+  padding-left: 12px;
+  width: 671px;
+  height: 45px;
+  border: none;
+  outline: none;
+  border-radius: 9px;
+  background: #fff;
+}
+
+textarea {
+  padding-top: 10px;
+  padding-left: 12px;
+  resize: none;
+  width: 671px;
+  border: none;
+  outline: none;
+  height: 232px;
+  border-radius: 9px;
+  background: #fff;
+}
+
+.form-btn {
+  margin-bottom: 63px;
+  margin-left: 489px;
+  border: none;
+  outline: none;
+  width: 193px;
+  height: 51px;
+  border-radius: 10px;
+  background: #1090cb;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 204.3%;
+}
+
+.form-btn:hover {
+  cursor: pointer;
+}

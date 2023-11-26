@@ -1,0 +1,131 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-bottom {
+  padding-top: 82px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  gap: 155px;
+  padding-bottom: 56px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 27px;
+}
+
+h2 {
+  color: #00329b;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.btm-text {
+  width: 372px;
+  height: 58px;
+  color: #515151;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.b-text {
+  width: 196px;
+  height: 23px;
+  color: #515151;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.section-info {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.title {
+  padding-bottom: 20px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.i-text {
+  color: #515151;
+
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.more {
+  width: 282px;
+  height: 76px;
+}
+
+.i-text:hover {
+  color: #000;
+}
+
+.section-medias {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.btn-media {
+  border-radius: 50%;
+  border: none;
+  width: 34px;
+  height: 34px;
+  background-color: #fff;
+  filter: drop-shadow(0px 4px 14px rgba(0, 0, 0, 0.15));
+}
+
+.btn-media:hover {
+  background-color: #d2d2d2;
+}
+
+.media {
+  width: 13px;
+  height: 13px;
+}
+
+.space {
+  width: 1901.001px;
+  height: 0.8px;
+  border-bottom: 1px solid #d2d2d2;
+}
+
+footer {
+  padding-top: 29px;
+  padding-bottom: 27px;
+  color: #686868;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 190.6%;
+}

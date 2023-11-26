@@ -1,0 +1,268 @@
+.principal {
+  padding-top: 72px;
+  padding-bottom: 159px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-title {
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 177.9%;
+  letter-spacing: 0.42px;
+}
+
+.container-subtitle {
+  color: #1090cb;
+  font-family: Poppins;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 177.9%;
+  letter-spacing: 0.42px;
+}
+
+.container-text {
+  padding-top: 41px;
+  padding-bottom: 52px;
+  width: 432px;
+  height: 71px;
+  color: #777;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 189.5%;
+}
+
+.container-search {
+  margin-bottom: 66px;
+  padding-left: 25px;
+  display: flex;
+  flex-direction: row;
+  gap: 19px;
+  width: 400px;
+  height: 49px;
+  border-radius: 10px;
+  background: #f1f1f1;
+}
+
+.input-search {
+  width: 395px;
+  border: none;
+  outline: none;
+  color: #727272;
+  border-radius: 10px;
+  background: #f1f1f1;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 189.5%;
+}
+
+.container-btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 34px;
+}
+
+.btn-filter {
+  border: none;
+  width: 162px;
+  height: 48px;
+  border-radius: 30px;
+  background: #e7eff3;
+  color: #1090cb;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 177.9%;
+  letter-spacing: 0.14px;
+}
+
+.btn-filter:hover {
+  background: #1090cb;
+  color: #fff;
+}
+
+.posts {
+  padding-top: 109px;
+}
+
+.recent-post {
+  padding-bottom: 136px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.recent-section {
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+}
+
+.recent-title {
+  width: 525px;
+  height: 92px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 177.9%;
+  letter-spacing: 0.27px;
+}
+
+.recent-text {
+  width: 525px;
+  height: 105px;
+  color: #424242;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 210.9%;
+  letter-spacing: 0.16px;
+}
+
+.recent-author {
+  display: flex;
+  flex-direction: row;
+  gap: 21px;
+}
+
+.author-profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 194px;
+}
+
+.author-title {
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 210.9%;
+  letter-spacing: 0.18px;
+}
+
+.author-date {
+  color: #7b7b7b;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 210.9%;
+  letter-spacing: 0.14px;
+}
+
+.read-link {
+  outline: none;
+  text-decoration: none;
+  color: #1090cb;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 177.9%;
+  letter-spacing: 0.14px;
+}
+
+.post-sections {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 84px;
+}
+
+.authors {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 21px;
+}
+
+.authors-section {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+
+.authors-author {
+  display: flex;
+  flex-direction: row;
+  gap: 21px;
+}
+
+.authors-profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.authors-title {
+  width: 333px;
+  height: 126.233px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 177.9%;
+  letter-spacing: 0.23px;
+}
+
+.authors-text {
+  width: 333px;
+  height: 144.07px;
+  color: #424242;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 210.9%;
+  letter-spacing: 0.16px;
+}
+
+.authors-prof-title {
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 210.9%;
+  letter-spacing: 0.18px;
+}
+
+.authors-date {
+  color: #7b7b7b;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 210.9%;
+  letter-spacing: 0.14px;
+}

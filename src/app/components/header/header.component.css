@@ -1,0 +1,59 @@
+.container {
+  padding-top: 31px;
+  padding-bottom: 27px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1130px;
+  border-bottom: 1px dotted #C4C4C4;
+}
+
+h1 {
+  color: #1090cb;
+  font-family: Poppins;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.c-col {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 71px;
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.link:hover {
+  color: #1090cb;
+}
+
+.btn-contact {
+  border: none;
+  outline: none;
+  color: #fff;
+  width: 125px;
+  height: 41px;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 6px;
+  background: #1090cb;
+}
+
+.btn-contact:hover {
+  border: 1px solid #fff;
+}

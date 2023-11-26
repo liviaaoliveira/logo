@@ -1,0 +1,277 @@
+.container {
+  padding-top: 156px;
+  padding-bottom: 220px;
+  display: block;
+}
+
+.header-content {
+  padding-bottom: 220px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.c-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-right: 153px;
+}
+
+.c-head--blue {
+  padding-bottom: 19px;
+  color: #1090cb;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.c-head__title {
+  color: #252525;
+  width: 565px;
+  height: 128px;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 170%;
+}
+
+.c-head__text {
+  padding-top: 37px;
+  color: #868686;
+  width: 463px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 175%;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  padding-left: 123px;
+  padding-bottom: 187px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 48px;
+}
+
+.content-title {
+  width: 807px;
+  height: 148px;
+  color: #1090cb;
+  font-family: Poppins;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+}
+
+.content-text {
+  width: 1014px;
+  height: 167px;
+  color: #585858;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 200%;
+}
+
+.context {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 52px;
+}
+
+.c-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 31px;
+}
+
+.c-info-title {
+  width: 499px;
+  height: 109px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+}
+
+.c-info-text {
+  width: 487px;
+  height: 151px;
+  color: #585858;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 200%;
+}
+
+.c-info-btn {
+  width: 193px;
+  height: 51px;
+  border-radius: 10px;
+  border: 1px solid #1090cb;
+  background: #fff;
+  color: #1090cb;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 204.3%;
+}
+
+.c-info-btn:hover {
+  border: 1px solid #fff;
+  background-color: #1090cb;
+  color: #fff;
+}
+
+.c-info-serv {
+  width: 766px;
+  height: 395px;
+  background: #fff;
+  box-shadow: 0px 4px 124px 0px rgba(0, 0, 0, 0.1);
+}
+
+.serv-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 29px;
+}
+
+.serv-sec-one {
+  padding-top: 65px;
+  padding-bottom: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+}
+
+.serv-sec-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 56px;
+  padding-bottom: 95px;
+}
+
+.serv-text {
+  color: #2e0d64;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 177.9%;
+  letter-spacing: 0.25px;
+}
+
+.serv-red {
+  width: 41px;
+  height: 41px;
+  padding: 25px;
+  border-radius: 20px;
+  background: #fff2f2;
+}
+
+.serv-blue {
+  width: 41px;
+  height: 41px;
+  padding: 25px;
+  border-radius: 20px;
+  background: #e2f3ff;
+}
+
+.serv-purple {
+  width: 41px;
+  height: 41px;
+  padding: 25px;
+  border-radius: 20px;
+  background: #f1e8ff;
+}
+
+.serv-pink {
+  width: 43px;
+  height: 43px;
+  padding: 25px;
+  border-radius: 20px;
+  background: #ffe7fb;
+}
+
+.team {
+  padding-top: 140px;
+  padding-bottom: 206px;
+  display: flex;
+  flex-direction: column;
+  gap: 71px;
+}
+
+.team-title {
+  padding-left: 586px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 170%;
+}
+
+.team-context {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 48px;
+}
+
+.member {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  gap: 9px;
+}
+
+.member-image {
+  padding-bottom: calc(22px - 9px);
+}
+
+.member-role {
+  color: #6a6a6a;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 210.9%;
+  letter-spacing: 0.16px;
+}
+
+.member-name {
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 210.9%;
+  letter-spacing: 0.18px;
+}
